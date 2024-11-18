@@ -14,7 +14,7 @@ To get the second list of contacts from VoroMQA.
 $ voronota-contacts -i T1109_top_model.pdb --contacts-query '--no-same-chain --no-solvent' > T1109_voro_contacts.txt
 $ cat T1109_voro_contacts.txt | voronota expand-descriptors | column -t > T1109_expanded_contacts.txt
 --
-Output: <target>_expanded_contacts.txt - This file is already supplied for H1106 and voroMQA may not be installed on your system.
+Output: <target>_expanded_contacts.txt - This file is already supplied for H1106 as voroMQA may not be installed on your system.
 
 Run Process_Voro_contacts.py
 ----------------------------
